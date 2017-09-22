@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  nginx:
+    shm_size: 264M
+    restart: always
+    image: nginx
+    ports:
+      - 80:80/tcp
+    volumes:
+      - ./etc/nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./src:/usr/share/nginx/html:ro
