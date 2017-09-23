@@ -2,7 +2,13 @@
 
 Mirror de la web onvotar.garantiespelreferendum.com (ref1oct.eu y rederendum.cat)
 
-El dump ha sido creado con la herramienta `wget` y los links convertidos automácamente, por lo que es probable que pueda existir algo que no funcione completamente, aunque por ahora no lo he encontrado.
+El dump ha sido creado con la herramienta `wget` y los links convertidos automácticamente, por lo que es probable que pueda existir algo que no funcione completamente, aunque por ahora no lo he encontrado.
+
+---
+
+### Mirrors que funcionan
+
+http://onvotar1oct.com/on-votar/
 
 ---
 
@@ -20,8 +26,11 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.16.1/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-3. Arrancar la aplicacion
+3. Arrancar la aplicación
 
+```
 cd referendum_cat_mirror
 docker-compose up -d
+```
 
+La aplicación estaraá dddisponible en http://[IP_Servidor] (puerto 80)
