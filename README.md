@@ -33,4 +33,4 @@ cd referendum_cat_mirror
 docker-compose up -d
 ```
 
-La aplicación eestara disponible en http://[IP_Servidor] (puerto 80)
+La aplicacion estara disponible en http://[IP_Servidor] (puerto 80)
