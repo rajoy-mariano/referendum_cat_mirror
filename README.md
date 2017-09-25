@@ -10,6 +10,9 @@ El dump ha sido creado con la herramienta `wget` y los links convertidos automá
 
 * https://rajoy-mariano.github.io/on-votar/index.html
 * http://onvotar1oct.com/on-votar/
+* http://votarem.xyz/on-votar/
+* http://catalunyalliure.xyz/on-votar/
+* http://independencia.xyz/on-votar/
 
 ---
 
