@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export db_url_prefix=https://onvotar.garantiespelreferendum.com/db.20170926
+export db_url_prefix=https://onvotar.garantiespelreferendum.com/db.20170930
 hex_values=`printf "%02x " {0..255}`
 download_list=download_list.txt
 parallel_downloads=50
